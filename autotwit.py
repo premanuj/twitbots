@@ -6,7 +6,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-my_file = open('twit.txt', encoding='utf-8')
+my_file = open('unicode_file.txt', encoding='utf-8')
 file_lines = my_file.readlines()
 my_file.close()
 
